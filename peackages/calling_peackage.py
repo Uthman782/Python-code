@@ -1,0 +1,10 @@
+import maths as mt
+# z = mt.quadratic(1, 3, -10)
+# print(z)
+# print(type(z))
+z = mt.power(3, 3, 2)
+# print(mt.power.__doc__)
+print(z)
+# print(dir(mt))
+# print(mt.__name__)
+# print(mt.__doc__)

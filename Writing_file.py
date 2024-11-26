@@ -1,0 +1,25 @@
+# f = open('text.txt', 'w')
+# f.write("O Hello Very are you gone")
+# f.close()
+# f = open("text.txt", 'rt')
+# print(f.read())
+# f.close()
+# Appending Mode...................................
+# f = open('text.txt', 'a')
+# f.write("I am Ganna Writing something okay.\n")
+# f.close()
+# f = open('text.txt', 'rt')
+# print(f.read())
+# f.close()
+# Read and write Mode...............................
+
+f = open('text.txt', 'r+')
+print(f.read())
+print(f.tell())
+# f.write("I am Ganna Writing something okay.\n")
+print(f.tell())
+print(f.seek(5))
+print("We ", end="")
+print(f.read())
+f.close()
+
